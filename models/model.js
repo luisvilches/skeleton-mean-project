@@ -1,8 +1,8 @@
 const mongoose = require('mongoose')
-let Scheme = mongoose.Schema;
+let Schema = mongoose.Schema;
 
 let Model = new Schema({
-	name: String;
+	name: String,
 	date: Date
 })
 
